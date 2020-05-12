@@ -81,18 +81,12 @@ class CategoriesNavbar extends Component {
     return (
       <div className="categories-navbar">
         <div className="category-title-wrapper" onMouseOver={() => this.handleMouseOver({ FriendlyID: 0 })} onMouseOut={() => this.handleMouseOut()}>
-<<<<<<< HEAD
           <Link to={urlGenerator.get({page:"catclasslist"})}><a>          
           <span className={`category-title ${selected && selected.FriendlyID === 0 ? 'highlight' : ''}`} id="id-0">
             {"All Classes"}
             {/*t('Header.All_Categories')*/}
           </span></a></Link>
 
-=======
-          <span className={`category-title ${selected && selected.FriendlyID === 0 ? 'highlight' : ''}`} id="id-0">
-            {t('Header.All_Categories')}
-          </span>
->>>>>>> fa6a0a54a97f2fe6a6eaa82d73c1f5bf322d9f9a
         </div>
         {
           categoriesTree.map(({ Category }, i) => {
