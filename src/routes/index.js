@@ -27,13 +27,9 @@ import OrderApprovalList from './OrderApprovalList'
 import CustomMain from './CustomMain'
 import ClearingUnknownOrder from './ClearingUnknownOrder'
 import ProductDetails from './ProductDetails'
-<<<<<<< HEAD
 import Policy from './Policy'
 import Termsconditions from './Termsconditions'
 import Catclasslist from './Catclasslist'
-=======
-
->>>>>>> fa6a0a54a97f2fe6a6eaa82d73c1f5bf322d9f9a
 export default {
   Home,
   Category,
@@ -63,12 +59,8 @@ export default {
   OrderApprovalList,
   CustomMain,
   ClearingUnknownOrder,
-<<<<<<< HEAD
   ProductDetails,
   Policy,
   Termsconditions,
   Catclasslist
-=======
-  ProductDetails
->>>>>>> fa6a0a54a97f2fe6a6eaa82d73c1f5bf322d9f9a
 }
