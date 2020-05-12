@@ -1,0 +1,72 @@
+@import "_theme.scss";
+<<<<<<< HEAD
+.footer ul li {
+  list-style-type: none;
+
+}
+
+.footer_menu {
+  margin: 0;
+  padding: 0;
+  min-height: 120px;
+}
+
+.footer .header {
+  font-size: 18px;
+  margin-bottom:5px;
+  font-weight: normal;
+}
+
+#copy {
+  padding-top: 40px;
+}
+
+.footer a {
+  color: #fff !important;
+  text-decoration: none;
+  list-style-type: none;
+}
+=======
+>>>>>>> fa6a0a54a97f2fe6a6eaa82d73c1f5bf322d9f9a
+
+.footer {
+  position: relative;
+  background-color: var(--footer-background-color);
+  height: var(--footer-height);
+  font-size: var(--text-size-regular);
+  width: 100%;
+  color: var(--footer-text-color);
+  padding: 40px 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .footer-column {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+<<<<<<< HEAD
+  .header {
+    font-weight: bold;
+    list-style-type: none;
+  }
+  
+
+=======
+>>>>>>> fa6a0a54a97f2fe6a6eaa82d73c1f5bf322d9f9a
+  @media (max-width: $lg) {
+    display: none;
+  }
+}
