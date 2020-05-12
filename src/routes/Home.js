@@ -78,10 +78,19 @@ class Home extends Component {
     }
 
     const { customState: { categories, homeFeaturedProducts, homeFeaturedCategory } } = this.props
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> fa6a0a54a97f2fe6a6eaa82d73c1f5bf322d9f9a
     const promotionItemImageUrl = getVariableValue('--homepage-carousel-slide-1-image', require(`$assets/images/banner_image.png`), true)
     const promotionItemTitle = getVariableValue('--homepage-carousel-slide-1-main-text', t('PromotionItem.Title'))
     const promotionItemSubtitle = getVariableValue('--homepage-carousel-slide-1-sub-text', t('PromotionItem.Subtitle'))
     const promotionItemButtonText = getVariableValue('--homepage-carousel-slide-1-button-text', t('PromotionItem.Button_Text'))
+<<<<<<< HEAD
+=======
+
+>>>>>>> fa6a0a54a97f2fe6a6eaa82d73c1f5bf322d9f9a
     return (
       <Layout {...this.props} className="home">
         <div className="promotion-wrapper">
@@ -91,7 +100,11 @@ class Home extends Component {
               title={promotionItemTitle}
               subTitle={promotionItemSubtitle}
               buttonText={promotionItemButtonText}
+<<<<<<< HEAD
               url={urlGenerator.get({page:"catclasslist"})}
+=======
+              url={this.state.promotionItemButtonUrl}
+>>>>>>> fa6a0a54a97f2fe6a6eaa82d73c1f5bf322d9f9a
             />
           </Slider>
         </div>
